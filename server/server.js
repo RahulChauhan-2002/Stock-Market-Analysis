@@ -8,7 +8,7 @@ dotenv.config();
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// Middleware
+// Middleware cors
 app.use(cors({
   origin: `${process.env.client_url}`, // restrict to your frontend origin
   methods: ['GET'],

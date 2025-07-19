@@ -39,7 +39,7 @@ function App() {
     const fetchStockData = async () => {
       try {
         const res = await axios.get(
-          `${secret_url}/${selectedCompany}`
+          `${secret_url}/api/stocks/${selectedCompany}`
         );
         setStockData(res.data.data); 
         setStockStats(res.data.stats);
