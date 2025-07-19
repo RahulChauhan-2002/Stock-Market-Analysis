@@ -1,0 +1,41 @@
+# =====================
+# Root-level ignores
+# =====================
+node_modules/
+.env
+.env.local
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Editor & OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# =====================
+# Frontend - client/
+# =====================
+/client/node_modules/
+/client/build/
+/client/.env
+/client/.env.local
+/client/.next/           # if using Next.js
+/client/dist/            # if using Vite or other bundler
+/client/coverage/
+/client/.turbo/          # for turborepo (if used)
+
+# =====================
+# Backend - server/
+# =====================
+/server/node_modules/
+/server/dist/
+/server/.env
+/server/.env.local
+/server/coverage/
+/server/logs/
+/server/uploads/         # if your app saves user uploads
