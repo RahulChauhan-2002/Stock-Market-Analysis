@@ -21,7 +21,7 @@ function App() {
   useEffect(() => {
     const fetchCompanyList = async () => {
       try {
-        const res = await axios.get(`${secret_url}/companies`);
+        const res = await axios.get(`${secret_url}/api/stocks/companies`);
         setCompanyList(res.data);
         // Set the first company as the default selected one
         if (res.data.length > 0) {
