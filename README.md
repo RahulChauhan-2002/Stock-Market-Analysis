@@ -9,7 +9,7 @@ A full-stack stock market analysis dashboard that allows users to visualize and 
 
 ## 🌐 Live Demo
 
-- **View Live Project on Render:** [https://stock-market-analysis-kappa.vercel.app/](https://stock-market-analysis-1-725m.onrender.com/)
+- **View Live Project on Render:** (https://stock-market-analysis-1-725m.onrender.com/)
 - **Frontend Repo:** [Link to Frontend Repo](https://github.com/RahulChauhan-2002/Stock-Market-Analysis/tree/main/Frontend)
 
 ---
